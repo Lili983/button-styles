@@ -11,7 +11,7 @@ html {
 div {
   padding: .5rem;
   text-align: center;
-  margin: .1em;
+  margin: .01em;
 }
 
 .btn {
@@ -57,11 +57,20 @@ div {
 }
 
 .btn-ghost:hover {
-
+  font-size: 1.5rem;
 }
 
 .btn-ghost {
   border-width: 3px;
   background-color: #fff;
   color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-warning {
+  background-color: #f33;
+  border-color: #f33;
 }
